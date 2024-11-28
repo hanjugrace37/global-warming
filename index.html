@@ -1,1 +1,58 @@
-Hello world!
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>기후 변화와 농업의 미래</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>기후 변화와 농업의 미래</h1>
+    <p>기후 변화가 농업에 미치는 영향과 식량 안보의 중요성</p>
+  </header>
+
+  <section class="intro">
+    <h2>기후 변화와 농업</h2>
+    <p>기후 변화는 전 지구적인 문제로, 특히 농업에 큰 영향을 미치고 있습니다. 온실가스 배출량 증가와 기온 상승은 농작물의 성장 환경을 변화시켜, 전 세계적으로 식량 생산에 심각한 위협을 주고 있습니다.</p>
+  </section>
+
+  <section class="experiment">
+    <h2>실험 결과</h2>
+    <div class="experiment-result">
+      <h3>1차 실험: 온실가스 배출량과 기온의 관계</h3>
+      <p>결정 계수 R²: 0.18 (기온과 온실가스 배출량의 관계)</p>
+      <canvas id="chart1"></canvas>
+    </div>
+
+    <div class="experiment-result">
+      <h3>2차 실험: 기온 편차와 이산화탄소 농도의 관계</h3>
+      <p>결정 계수 R²: 0.067 (기온 편차와 이산화탄소 농도의 관계)</p>
+      <canvas id="chart2"></canvas>
+    </div>
+
+    <div class="experiment-result">
+      <h3>3차 실험: 기온과 이산화탄소 농도의 관계</h3>
+      <p>결정 계수 R²: 0.38 (기온과 이산화탄소 농도의 관계)</p>
+      <canvas id="chart3"></canvas>
+    </div>
+  </section>
+
+  <section class="impact">
+    <h2>기후 변화가 농업에 미치는 영향</h2>
+    <p>기후 변화는 농작물의 성장 환경을 변화시켜, 특정 지역에서 재배할 수 있는 작물의 범위가 좁아지고 있습니다. 이로 인해 식량 가격 상승과 식량 불안정성의 우려가 커지고 있습니다.</p>
+  </section>
+
+  <section class="solutions">
+    <h2>해결 방안</h2>
+    <p>기후 변화에 대응하기 위한 혁신적인 농업 기술과 대체 식량 자원 연구가 필요합니다. 스마트팜과 같은 기술을 통해 안정적인 식량 생산 환경을 구축할 수 있으며, 곤충 식량과 배양육 등도 중요한 대체 자원으로 주목받고 있습니다.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 기후 변화 연구팀</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
